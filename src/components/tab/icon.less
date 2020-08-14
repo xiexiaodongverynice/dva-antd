@@ -1,0 +1,46 @@
+.dispalyIconView {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .dispalyIcon {
+    margin-left: 20px;
+    font-size: 40px;
+  }
+  .iconColorSelect {
+    width: 100px;
+  }
+}
+
+.scrollWrap {
+  width: 337px;
+  height: 200px;
+  overflow-y: auto;
+  margin-top: 25px;
+  border: 1px solid #e5e5e5;
+  .iconWrap {
+    margin: 10px;
+    overflow-wrap: break-word;
+    .iconView {
+      display: inline-block;
+      position: relative;
+      .icon {
+        font-size: 24px;
+        margin: 12px 10px;
+        width: 15px;
+        display: inline-block;
+      }
+
+      .checkCircle {
+        display: inline-block;
+        position: absolute;
+        right: 2px;
+        bottom: 5px;
+        z-index: 100;
+        background-color: #fff;
+        border-radius: 6px;
+        font-size: 15px;
+        color: #52c41a;
+      }
+    }
+  }
+}

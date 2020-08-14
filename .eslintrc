@@ -1,0 +1,57 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "generator-star-spacing": [0],
+    "consistent-return": [0],
+    "react/forbid-prop-types": [0],
+    "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
+    "global-require": [1],
+    "import/prefer-default-export": [0],
+    "react/jsx-no-bind": [0],
+    "react/prop-types": [0],
+    "react/prefer-stateless-function": [0],
+    "no-else-return": [0],
+    "no-restricted-syntax": [0],
+    "import/no-extraneous-dependencies": [0],
+    "no-use-before-define": [0],
+    "jsx-a11y/no-static-element-interactions": [0],
+    "no-nested-ternary": [0],
+    "arrow-body-style": [0],
+    "import/extensions": [0],
+    "no-bitwise": [0],
+    "no-cond-assign": [0],
+    "import/no-unresolved": [0],
+    "arrow-parens": [0],
+    "camelcase": [0],
+    "require-yield": [1],
+    "max-len": [0],
+    "linebreak-style": [0],
+    "react/no-unescaped-entities": [0],
+    "no-script-url": [0],
+    "one-var": [0],
+    "no-plusplus": [0],
+    "newline-per-chained-call": [0],
+    "eqeqeq": [0],
+    "no-restricted-properties": [0],
+    "no-param-reassign": [0],
+    "guard-for-in": [0],
+    "no-shadow": [0],
+    "no-console": [0],
+    "no-eval": [0],
+    "no-unused-vars": 1,
+    "react/no-did-mount-set-state": 1,
+    "dot-notation": 1,
+    "react/self-closing-comp": 1,
+    "react/no-multi-comp": 1,
+    "react/sort-comp": 1
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  }
+}

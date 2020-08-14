@@ -1,0 +1,37 @@
+{
+  "pwd_failure_count_interval":"指定服务器在清除失败尝试记录之前等待下一次尝试的时间。<br />0：无需等待，立马可以进行下一次密码尝试",
+  "pwd_lockout_duration":"密码尝试超过次数，锁定密码的时间。<br />0：默认，不锁定。<br />-1：永久锁定，直至重置密码",
+  "pwd_max_failure":"密码失败次数，锁定该密码<br/>0：密码尝试次数无限",
+
+  "pwd_allow_user_change":"true：用户可以修改自己的密码<br/>false：只能管理员修改",
+  "pwd_safe_modify":"用户修改密码，是否必须提供正确的现有密码",
+  "pwd_in_history":"服务器记住的密码个数，以防止用户重复使用相同的密码。<br/>系统规定：密码历史表（pwd_history）可以持续累积，但是会比较 最近{{pwd_in_history}}个密码是否重复",
+  "pwd_min_age":"密码修改的间隔，阻止用户过于频繁的更改密码。<br/>0：不限制，单位：秒",
+  "pwd_must_change":"当其他用户重置密码值后，用户是否必须更改密码。",
+
+  "pwd_check_quality":"强制检查密码是否满足最低密码质量的定义：<br/>0：检查不强制执行<br/>1：检查密码质量，如果无法确认质量，记录一条警告<br/>2：检查密码质量，如果无法确认质量，拒绝操作",
+  "pwd_min_length":"密码最小长度，系统强制最低6位",
+  "pwd_max_length":"密码最大长度。<br/>0：不限制",
+  "pwd_strong_check_require_charset":"密码复杂度：[\"lower&&upper&&digit&&special\",3]<br/>lower：新密码必须包含小写字符。<br/>upper：新密码必须包含大写字符。<br/>digit：新密码必须包含数字。<br/>special：新密码必须包含特殊字符。<br/>2：新密码必须至少包含上述字符集中的两种，每种至少包含一个字符。<br/>3：新密码必须至少包含上述字符集中的三种，每种至少包含一个字符。",
+  "pwd_strong_check_lower_words":"是否进行常用单词检测。该选项会匹配常用单词表进行检查。",
+  "pwd_strong_check_same_login_name":"验证密码是否与登陆账户相同，如果相同即不合法",
+
+
+  "pwd_max_age":"密码特定预留期。<br/>0：不强制修改密码；单位：天",
+  "pwd_expire_warning":"密码即将过期警告。<br/>0：不警告。该值必须小于pwd_max_age。单位：天",
+  "pwd_grace_auth_n_limit":"宽限登录：<br/>允许用户使用过期密码进行一次或者多次的登录绑定。以便进行密码修改操作。<br/>0：禁止宽限，立马拒绝操作",
+
+  "account_login_allow_devices":"可访问设备：<br/>允许用户可以访问的设备，默认PC、App、iPad、WeChat",
+  "account_login_pc_period_of_validity":"登录有效期：<br/>按照分钟配置，默认7天，即：10080分钟",
+  "account_login_pc_allow_count":"登录有效数量：<br/>同一账号，在PC上，允许同时在线的数量<br/>默认：不限制",
+
+  "account_login_app_period_of_validity":"登录有效期：<br/>按照分钟配置，默认10分钟",
+  "account_login_app_allow_count":"登录有效数量：<br/>同一账号，在App上，允许同时在线的数量<br/>默认：1台",
+
+  "account_login_ipad_period_of_validity":"登录有效期：<br/>按照分钟配置，默认10钟",
+  "account_login_ipad_allow_count":"登录有效数量：<br/>同一账号，在Ipad上，允许同时在线的数量<br/>默认：1台",
+
+  "account_login_wechat_period_of_validity":"登录有效期：<br/>按照分钟配置，默认7天，即：10080分钟",
+  "account_login_wechat_allow_count":"登录有效数量：<br/>同一账号，在微信上，允许同时在线的数量<br/>默认：1台"
+
+}

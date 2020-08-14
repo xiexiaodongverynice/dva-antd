@@ -1,0 +1,28 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# production
+/dist
+#/tenant-management
+
+# misc
+.DS_Store
+npm-debug.log*
+*~
+yarn-error.log
+.idea/*
+.idea/misc.xml
+.idea/modules.xml
+.idea/tenant-management.iml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/watcherTasks.xml
+
+# package
+package-lock.json
+
+
+/lintReport

@@ -1,0 +1,43 @@
+{
+  "pwd_failure_count_interval": 0,
+  "pwd_lockout_duration": 0,
+  "pwd_max_failure": 0,
+
+  "pwd_lockout": false,
+  "pwd_allow_user_change": true,
+  "pwd_safe_modify": true,
+  "pwd_in_history": 0,
+  "pwd_min_age": 0,
+  "pwd_must_change": false,
+
+  "pwd_check_quality": 0,
+  "pwd_min_length": 6,
+  "pwd_max_length": 0,
+  "pwd_strong_check_require_charset":  ["lower&&upper&&digit&&special",3],
+  "pwd_strong_check_lower_words": false,
+  "pwd_strong_check_same_login_name":true,
+
+  "pwd_max_age": 0,
+  "pwd_expire_warning": 0,
+  "pwd_grace_auth_n_limit": 0,
+
+  "account_login_allow_devices":["pc","app","ipad","wechat"],
+  "account_login":{
+    "pc":{
+      "period_of_validity":10080,
+      "allow_count":-1
+    },
+    "app":{
+      "period_of_validity":10,
+      "allow_count":1
+    },
+    "ipad":{
+      "period_of_validity":10,
+      "allow_count":1
+    },
+    "wechat":{
+      "period_of_validity":10080,
+      "allow_count":1
+    }
+  }
+}
